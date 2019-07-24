@@ -28,7 +28,7 @@ pipeline {
 										echo "Running the unit Test....."
 									}
 						}
-						stage ("Integration test') {
+						stage ('Integration test') {
 									agent {
 										docker {
 											reuseNode fals
